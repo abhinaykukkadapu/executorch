@@ -93,7 +93,7 @@ def get_ios_recipe(
         # pyre-ignore
         "ios-arm64-coreml-fp32": [CoreMLRecipeType.FP32, XNNPackRecipeType.FP32],
         # pyre-ignore
-        "ios-arm64-coreml-fp16": [CoreMLRecipeType.FP16],
+        "ios-arm64-coreml-fp16": [CoreMLRecipeType.FP16, XNNPackRecipeType.FP32],
         # pyre-ignore
         "ios-arm64-coreml-int8": [CoreMLRecipeType.PT2E_INT8_STATIC],
     }
